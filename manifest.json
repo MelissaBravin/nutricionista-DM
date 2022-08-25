@@ -1,0 +1,23 @@
+{
+    "name": "Minha primeira Progressive Web App",
+    "short_name": "Primeira PWA",
+    "icons": [
+        {
+            "src": "img/logo-balanca256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/logo-balanca512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "lang": "pt-BR",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+}
+
+

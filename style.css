@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #717395;
+  }
+  .div1{
+    background-color: #070B4A;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+     width: 1000px;
+    height: 250px;
+    }
+  .div1 h1{
+    margin-right: 250px;
+    margin-top: 100px;
+  }
+  p{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .container{
+    width: 1000px;
+    height: 600px;
+    background-color: #7A7DAF;
+    margin-left: 10px;
+    
+  }
+  .div2{
+    margin-left: 10px;
+  }
+  
+  h1{
+    margin-left: 10px;
+    float: right;
+    display: flex;
+  }
+  img{
+    float: left;
+    
+  }
+  .divtabela{
+    width: 500px;
+    height: 200px;
+  }
+  .nome input{
+    height: 17px;
+  }
+  .altura{
+    
+    float: left;
+  }
+  .idade{
+    
+    float: right;
+  }
+  .sexo{
+    
+    float: left;
+  }
+  .peso{
+    
+    float: right;
+  }
+  .textinho{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }

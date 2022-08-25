@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="main.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="widht=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <div class="container">
+    <div class="div1">
+      <img src="img/logo-balanca.png">
+      <h1>CALCULE O IMC</h1>
+    </div>
+    <div class="div2">
+    <div class="nome"><p>NOME:</p>
+
+    <input type="text" id="nome"></div>
+
+    <div class="divtabela">
+    <div class="altura"><p>ALTURA:</p>
+
+    <input type="text" id="altura"></div>
+
+    <div class="idade"><p>IDADE:</p>
+
+    <input type="text" id="idade"></div>
+
+    <div class="sexo"><p>SEXO:</p>
+
+    <input type="text" id="sexo"></div>
+
+    <div class="peso"><p>PESO:</p>
+
+    <input type="text" id="peso"></div>
+       
+      <div class="textinho"> O IMC é um índice que mede se você está abaixo, </br>
+                           dentro ou acima do peso, de acordo com a relação</br>
+                           entre seu peso e altura. </div>
+
+    </div>
+
+    <button id="btn" onclick="calcularIMC()">CALCULAR</button>
+
+    <div  id="resultado"></div>
+
+   
+    </div> 
+  </div>
+</body>
+
+</html>
